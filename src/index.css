@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.letters{
+  font-size: 2rem;
+  gap: 0.5rem;
+}
+
+.letters, .usedLetters{
+  display: flex;
+}
+
+.usedLetters{
+  height: 2rem;
+}
+
+.inputField{
+  border: none;
+  border-bottom: 2px solid black;
+  width: 1rem;
+  padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+}
+
+.inputField:focus{
+  outline: none;
+}
